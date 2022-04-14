@@ -7,6 +7,7 @@ import UseRef from './hooks/UseRef';
 import UseContext from './hooks/contextHook/UseContext';
 import UseLayoutEffect from './hooks/UseLayoutEffect';
 import UseMemo from './hooks/UseMemo';
+import UseCallback from './hooks/UseCallback';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <UseLayoutEffect/>
       <hr/>
       <UseMemo/>
+      <hr/>
+      <UseCallback/>
     </div>
   );
 }
