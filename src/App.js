@@ -3,6 +3,7 @@ import './App.css';
 import UseState from './hooks/UseState';
 import UseReducer from './hooks/UseReducer';
 import UseEffect from './hooks/UseEffect';
+import UseRef from './hooks/UseRef';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <UseReducer/>
       <hr/>
       <UseEffect/>
+      <hr/>
+      <UseRef/>
       <hr/>
     </div>
   );
