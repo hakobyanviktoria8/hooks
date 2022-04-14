@@ -4,6 +4,7 @@ import UseState from './hooks/UseState';
 import UseReducer from './hooks/UseReducer';
 import UseEffect from './hooks/UseEffect';
 import UseRef from './hooks/UseRef';
+import UseContext from './hooks/contextHook/UseContext';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <hr/>
       <UseRef/>
       <hr/>
+      <UseContext/>
     </div>
   );
 }
