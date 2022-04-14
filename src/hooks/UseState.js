@@ -13,7 +13,6 @@ function UseState() {
             setShow(!show)
         }}>+</button>
         <button onClick={()=>setCount(count-1)}>-</button>
-        <hr/>
         {show && <p>Show some text</p>}
     </div>
   )
